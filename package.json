@@ -1,0 +1,11 @@
+{
+  "name": "testing-grid",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server -o"
+  },
+  "devDependencies": {
+    "tweakpane": "^3.1.2"
+  }
+}
