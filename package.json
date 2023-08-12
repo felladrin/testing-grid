@@ -6,6 +6,6 @@
     "start": "npx http-server -o"
   },
   "devDependencies": {
-    "tweakpane": "^3.1.2"
+    "tweakpane": "^4.0.0"
   }
 }
