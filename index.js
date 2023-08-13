@@ -7,11 +7,11 @@ const parameters = {
   instances: 4,
 };
 
-const urlInput = pane.addInput(parameters, "url", {
+const urlInput = pane.addBinding(parameters, "url", {
   label: "URL",
 });
 
-const instancesAmount = pane.addInput(parameters, "instances", {
+const instancesAmount = pane.addBinding(parameters, "instances", {
   label: "Instances",
   step: 1,
   min: 1,
