@@ -1,9 +1,11 @@
-import { Pane } from "https://cdn.skypack.dev/tweakpane";
+import { Pane } from "https://esm.run/tweakpane";
 
 const pane = new Pane({ title: "Parameters" });
 
 const parameters = {
-  url: `https://linkedtimer.com/#${Math.random().toString(36).substring(2)}`,
+  url: `https://linkedtimer.pages.dev/#${Math.random()
+    .toString(36)
+    .substring(2)}`,
   instances: 4,
 };
 
